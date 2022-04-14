@@ -3,3 +3,5 @@ Pillow
 gunicorn
 typing_extensions
 whitenoise
+django-storages
+boto3
