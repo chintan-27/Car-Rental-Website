@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% get_media_prefix as MEDIA_PREFIX %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -68,7 +69,7 @@
   <tr>
     
      <td width="250"><center>IMAGE:</center></td>
-     <td width="250"><center><img src='{{ Rents.car_image }}' height="200" width="250"></center></td>
+     <td width="250"><center><img src='{{ MEDIA_PREFIX }}{{ Rents.car_image }}' height="200" width="250"></center></td>
 
   </tr>
   </table>
